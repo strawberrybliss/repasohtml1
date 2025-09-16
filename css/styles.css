@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gloock", serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1, h2 {
+    font-family: "Gloock", serif;
+    color: #FFFFFF;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.galeria > figure {
+    width: 25%;
+    border: chartreuse 5px solid;
+}
